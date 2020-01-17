@@ -1,0 +1,76 @@
+body
+{
+    background-image: url("../src/images/contact.jpg");
+}
+
+.contactcontainer
+{
+    background-image: url("../src/images/contain.gif");
+    background-color: white;
+    height: 500px;
+    width: 1200px;
+    margin: 2% auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+    color:green;
+    text-align: center;
+}
+
+.address
+{
+    background-color: burlywood;
+    float: left;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+    border-radius: 30px;
+
+
+}
+
+.phone
+{
+    background-color: burlywood; 
+    width: 200px;
+    margin-left: 500px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+    border-radius: 30px;
+    
+}
+
+.email
+{
+    background-color: burlywood;
+    float: right;
+    height: 90px;
+    margin-top: -100px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+    border-radius: 30px;
+    
+}
+
+#map
+{
+    margin-top: 20px;
+    margin-right:250px ;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+    border-radius: 30px;
+
+}
+
+.googlemaps
+{
+    margin-left: -220px;
+    margin-top: 10px;
+    background-color: skyblue;
+    border-radius: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}

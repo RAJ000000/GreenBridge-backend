@@ -1,0 +1,44 @@
+.window
+{
+    background-color: white;
+    margin: 5px 5px 0 5px ;
+    height: 600px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px red;
+
+    
+}
+
+body
+{
+    background-color: black;
+}
+
+#tittt
+{
+    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 42px;
+    font-family: sans-serif;
+    
+}
+
+.buttons
+{
+    float: right;
+    margin-top: 450px;
+    margin-right: 10px;
+}
+
+.clickme
+{
+    background-color: springgreen;
+    font-weight: 600;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border-radius: 30%;
+    height: 30px;
+}

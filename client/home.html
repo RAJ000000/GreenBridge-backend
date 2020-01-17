@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="icon" href="src/images/icon.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/home.css"/>
+        <link rel="stylesheet" href="css/sidebar.css"/>
+        <link rel="stylesheet" href="css/q.css"/>
+    </head>
+    <body class="pagetwo">
+<!--navigation-->
+        <header>
+
+
+        <div class="container"> <h4>GreenBridge-Online</h4>
+<img src="src/images/logo.png" alt="logo" class="logo" height="80px"/>
+            <nav>
+                <ul>
+               <li> <a href="home.html">Home</a> </li>
+                <li> <a href="Q&A.html">Q&A</a></li>
+                    <li> <a href="about.html">About us</a></li> 
+                        <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+        
+    
+
+
+    </header>
+
+
+    <!--- navigation ends here-->
+
+
+    
+
+
+    
+ <!--Q&A starts here-->
+ <div class="contain">
+
+
+<div class="question" id="write">
+<div>
+<h1>Ask your question</h1> 
+<input class="type"  type="text" name="questiion" placeholder="Type your question here"/><br/>
+<input class="post" onclick="popUp()" type="submit" name="post" value="POST"/>
+<h1>Suggest answer</h1>
+<input class="type" type="text" name="answer" placeholder="Type your answer here"/><br/>
+<input class="post" onclick="popUp2()"  type="submit" name="post" value="POST"/>
+
+</div>
+</div>
+
+<!---sidebar starts -->
+
+
+<div class="questiion " >
+    <div class="bar"><img id="profiles" src="src/images/profile.svg"/><a id="color" href="profile.html">Go to my profile</a><hr/><br/> 
+    
+<div >
+    
+    
+          <a class="color"  href="home.html">Your questions</a> <br/><br/><br/>
+          <a class="color"  href="Q&A.html">Your answers</a class="color"><br/><br/><br/>
+          <a class="color"  href="about.html">About us</a class="color"><br/> <br/><br/>
+          <a class="color"  href="contact.html">Contact</a class="color">
+     
+    
+    </div>
+    </div>
+</div>
+<!--sidebar ends-->
+
+</div>
+  <!--Q&A ends here-->
+
+
+<!--your questions-->
+  <div class="window">
+    <div  id="tittt">
+         Your Questions ?<hr/>
+    </div >
+
+</div>  
+
+
+
+   
+ 
+
+
+
+
+   
+
+    </body>
+<script src="js/home.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   
+    
+</html>

@@ -1,0 +1,105 @@
+body
+{
+    background-image: url("../src/images/home.jpg");
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header
+{
+    background:white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px red;
+    border-radius: 20px;
+}
+
+.logo
+{
+    padding: 10px 0px;
+}
+
+nav
+{
+    float: right;
+}
+
+nav ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 70px;
+}
+
+nav a
+{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover
+{
+    color: #000;
+
+}
+
+nav a::before 
+{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before
+{
+    width: 100%;
+}
+
+
+h4
+{
+  margin-left:0px ;
+  font-family: helvetica;
+  color: green;
+}
+
+.window
+{
+    background-color: white;
+    margin: 5px 5px 0 5px ;
+    height: 600px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px red;
+
+    
+}
+
+#tittt
+{
+    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 42px;
+    font-family: sans-serif;
+    
+}
+
